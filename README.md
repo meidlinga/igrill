@@ -9,6 +9,7 @@ Monitor your iGrill (mini, v2 or v3) or Pulse 2000 (with a Raspberry Pi 1/2/3) -
 
 ## Installation
 1. clone this repo
+1. Install glibc headers (e.g. sudo apt-get install libglib2.0-dev)
 1. install required modules using pip (see requirements.txt)
 1. Create a dir for your config file(s) (E.g. ./config)
 1. Add at least one device config (see ./exampleconfig/device.yaml) - You need the MAC address of your device, you can find it with `hcitool lescan`
